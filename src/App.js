@@ -23,7 +23,7 @@ function App() {
 
   const logoutHandler = () => {
     setIsLoggedIn(false);
-    localStorage.setItem('LoginUserState', '1');
+    localStorage.setItem('LoginUserState', '0');
   };
 
   return (
